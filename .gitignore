@@ -1,0 +1,4 @@
+ExampleCompany/bin/*
+ExampleCompany/obj/*
+.idea
+dependencies
