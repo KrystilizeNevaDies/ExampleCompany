@@ -4,8 +4,8 @@ if ($null -eq $lethalCompanyPath) {
 }
 
 $cd = Get-Location
-$dllPath = Join-Path $cd "OpenCompany/bin/Debug/OpenCompany.dll"
+$dllPath = Join-Path $cd "ExampleCompany/bin/Debug/ExampleCompany.dll"
 
 # Copy to BepInEx/plugins
-$destPath = Join-Path $lethalCompanyPath "BepInEx/plugins/OpenCompany.dll"
+$destPath = Join-Path $lethalCompanyPath "BepInEx/plugins/ExampleCompany.dll"
 Copy-Item $dllPath $destPath -Force
